@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Add Nursery Test(failed)">
+    <classes>
+      <class name="com.bounceadmin.testscript.AddNursery">
+        <methods>
+          <include name="signOt"/>
+          <include name="listandViewNurseryDetails"/>
+          <include name="testReportResult"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.bounceadmin.testscript.AddNursery -->
+    </classes>
+  </test> <!-- Add Nursery Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
